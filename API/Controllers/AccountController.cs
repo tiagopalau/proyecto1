@@ -2,8 +2,10 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using API.Data;
+using API.DTOs;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
@@ -16,15 +18,16 @@ namespace API.Controllers
         }
         
         [HttpPost("register")]
-        public async Task<ActionResult<AppUser>> Register(string username, string password)
+        public async Task<ActionResult<AppUser>> Register(RegisterDTO registerDTO)
         {
+            if(await UserExists(registerDTO.Username)) return BadRequest("Username ya existe");
 
             using var hmac = new HMACSHA512();
 
             var user = new AppUser
             {
-                UserName = username,
-                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password)),
+                UserName = registerDTO.Username,
+                PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDTO.Password)),
                 PasswordSalt = hmac.Key
             };
 
@@ -32,6 +35,11 @@ namespace API.Controllers
             await _context.SaveChangesAsync();
 
             return user;
+        }
+
+        private async Task<bool> UserExists(string username)
+        {
+            return await _context.Users.AnyAsync(variable => variable.UserName == username.ToLower());
         }
     }
 }
