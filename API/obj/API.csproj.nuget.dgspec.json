@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "y6EmkRNA0qfFLVQYGhvnffwsAdLkZDHOV54edgINtGjCmHm8p07Amkrt9LuovlmZ2Sn36ZAWOeBIrKqdA71rbg==",
+  "dgSpecHash": "bP/TcsoSh8pfKFvjVZK1j5hMgFS9EX6Eg8h4xvYBalIENnZjR7/NQnN5ewwPiKf8tJkTf5hFzqcxbwaDQO0OYA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Win10\\Documents\\Construccion IV\\WorkSpace\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Win10\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Win10\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.6\\microsoft.aspnetcore.authentication.jwtbearer.5.0.6.nupkg.sha512",
     "C:\\Users\\Win10\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Win10\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.0-preview.8.20407.4\\microsoft.data.sqlite.core.5.0.0-preview.8.20407.4.nupkg.sha512",
     "C:\\Users\\Win10\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.5\\microsoft.dotnet.platformabstractions.3.1.5.nupkg.sha512",
@@ -28,6 +29,8 @@
     "C:\\Users\\Win10\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0-preview.8.20407.11\\microsoft.extensions.primitives.5.0.0-preview.8.20407.11.nupkg.sha512",
     "C:\\Users\\Win10\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.11.1\\microsoft.identitymodel.jsonwebtokens.6.11.1.nupkg.sha512",
     "C:\\Users\\Win10\\.nuget\\packages\\microsoft.identitymodel.logging\\6.11.1\\microsoft.identitymodel.logging.6.11.1.nupkg.sha512",
+    "C:\\Users\\Win10\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.7.1\\microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
+    "C:\\Users\\Win10\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "C:\\Users\\Win10\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.11.1\\microsoft.identitymodel.tokens.6.11.1.nupkg.sha512",
     "C:\\Users\\Win10\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Win10\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.3\\sqlitepclraw.bundle_e_sqlite3.2.0.3.nupkg.sha512",
